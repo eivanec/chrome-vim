@@ -124,7 +124,6 @@ function bindDefaults() {
         inputKey('l', scrollRight);
         specialKey('ctrl+o', function () {history.go(-1);return false;});
         specialKey('ctrl+i', function () {history.go(1);return false;});
-        inputKey('r', refresh);
         specialKey('ctrl+p', prevTab);
         specialKey('ctrl+n', nextTab);
         inputKey('d', deleteTab);

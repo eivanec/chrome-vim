@@ -122,15 +122,15 @@ function bindDefaults() {
         inputKey('k', scrollUp);
         inputKey('h', scrollLeft);
         inputKey('l', scrollRight);
-        specialKey('ctrl+o', function () {history.go(-1);return false;});
-        specialKey('ctrl+i', function () {history.go(1);return false;});
-        specialKey('ctrl+p', prevTab);
-        specialKey('ctrl+n', nextTab);
-        inputKey('d', deleteTab);
-        specialKey('esc', reset);
-        inputKey('f', find);
-        inputKey('shift+g', bottomOfPage);
-        multiBind('g g', topOfPage);
+        //specialKey('ctrl+o', function () {history.go(-1);return false;});
+        //specialKey('ctrl+i', function () {history.go(1);return false;});
+        //specialKey('ctrl+p', prevTab);
+        //specialKey('ctrl+n', nextTab);
+        //inputKey('d', deleteTab);
+        //specialKey('esc', reset);
+        //inputKey('f', find);
+        //inputKey('shift+g', bottomOfPage);
+        //multiBind('g g', topOfPage);
 }
 
 bindDefaults();
